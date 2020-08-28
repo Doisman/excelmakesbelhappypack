@@ -6,8 +6,11 @@ republic_mechanic = {
 	duration = 4
 	has_term_election = yes
 	custom_attributes = {
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_monarchie_idea_group = no
+		enables_republik_idea_group = yes
+		enables_diktatur_idea_group = no
+		enables_theokratie_idea_group = no
+		enables_horde_idea_group = no
 	}
 
 	modifiers = {
@@ -38,8 +41,11 @@ oligarchy_reform = {
 		max_absolutism = -40
 	}
 	custom_attributes = {
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_monarchie_idea_group = no
+		enables_republik_idea_group = yes
+		enables_diktatur_idea_group = no
+		enables_theokratie_idea_group = no
+		enables_horde_idea_group = no
 	}
 	ai = {
 		factor = 0.5 #generic
@@ -65,8 +71,12 @@ signoria_reform = {
 		max_absolutism = -30
 	}
 	custom_attributes = {
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_monarchie_idea_group = no
+		enables_republik_idea_group = yes
+		enables_diktatur_idea_group = no
+		enables_theokratie_idea_group = no
+		enables_horde_idea_group = no
+		is_merchant_republic = yes
 		enables_nepotism = yes
 	}
 	ai = {
@@ -99,8 +109,12 @@ protectorate_parliament_reform = {
 	has_term_election = no
 	custom_attributes = {
 		locked_government_type = yes
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_monarchie_idea_group = no
+		enables_republik_idea_group = yes
+		enables_diktatur_idea_group = no
+		enables_theokratie_idea_group = no
+		enables_horde_idea_group = no
+		is_merchant_republic = yes
 		blocked_call_diet = yes
 	}
 }
@@ -156,8 +170,12 @@ prussian_republic_reform = {
 	}
 	
 	custom_attributes = {
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_monarchie_idea_group = no
+		enables_republik_idea_group = yes
+		enables_diktatur_idea_group = no
+		enables_theokratie_idea_group = no
+		enables_horde_idea_group = no
+		is_merchant_republic = yes
 		generals_become_rulers = yes
 	}
 	
@@ -220,8 +238,12 @@ merchants_reform = {
 		trade_city_reform = trading_city
 	}
 	custom_attributes = {
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_monarchie_idea_group = no
+		enables_republik_idea_group = yes
+		enables_diktatur_idea_group = no
+		enables_theokratie_idea_group = no
+		enables_horde_idea_group = no
+		is_merchant_republic = yes
 		is_merchant_republic = yes
 	}
 	ai = {
@@ -303,8 +325,12 @@ venice_merchants_reform = {
 		trade_city_reform = trading_city
 	}
 	custom_attributes = {
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_monarchie_idea_group = no
+		enables_republik_idea_group = yes
+		enables_diktatur_idea_group = no
+		enables_theokratie_idea_group = no
+		enables_horde_idea_group = no
+		is_merchant_republic = yes
 		lottery_election = yes
 		election_on_death = yes
 		is_merchant_republic = yes
@@ -382,7 +408,7 @@ noble_elite_reform = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	modifiers = {
-		army_tradition = 0.25
+		army_tradition = 0.10
 		max_absolutism = -20
 		nobles_influence_modifier = 0.05
 		maratha_exclusive_influence_modifier = 0.05
@@ -391,8 +417,12 @@ noble_elite_reform = {
 	duration = 8
 
 	custom_attributes = {
-		enables_plutocratic_idea_group = no
-		enables_aristocratic_idea_group = yes
+		enables_monarchie_idea_group = yes
+		enables_republik_idea_group = no
+		enables_diktatur_idea_group = no
+		enables_theokratie_idea_group = no
+		enables_horde_idea_group = no
+		is_merchant_republic = yes
 	}
 	ai = {
 		factor = 0.5 #generic
@@ -417,8 +447,11 @@ presidential_despot_reform = {
 
 	custom_attributes = {
 		locked_government_type = yes
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_monarchie_idea_group = no
+		enables_republik_idea_group = no
+		enables_diktatur_idea_group = yes
+		enables_theokratie_idea_group = no
+		enables_horde_idea_group = no
 	}
 	has_term_election = no
 }
@@ -441,8 +474,11 @@ military_dictatorship_reform = {
 	custom_attributes = {
 		generals_become_rulers = yes
 		locked_government_type = yes
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_monarchie_idea_group = no
+		enables_republik_idea_group = no
+		enables_diktatur_idea_group = yes
+		enables_theokratie_idea_group = no
+		enables_horde_idea_group = no
 	}
 }
 
@@ -471,8 +507,11 @@ revolutionary_republic_reform = {
 	fixed_rank = 3
 
 	custom_attributes = {
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_monarchie_idea_group = no
+		enables_republik_idea_group = yes
+		enables_diktatur_idea_group = no
+		enables_theokratie_idea_group = no
+		enables_horde_idea_group = no
 		locked_government_type = yes
 	}
 
@@ -548,8 +587,11 @@ junior_revolutionary_republic_reform = {
 	fixed_rank = 2
 
 	custom_attributes = {
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_monarchie_idea_group = no
+		enables_republik_idea_group = yes
+		enables_diktatur_idea_group = no
+		enables_theokratie_idea_group = no
+		enables_horde_idea_group = no
 		locked_government_type = yes
 	}
 
@@ -634,9 +676,11 @@ peasants_republic = {
 		}
 	}
 	custom_attributes = {
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
-		enables_peasant_estate = yes
+		enables_monarchie_idea_group = no
+		enables_republik_idea_group = yes
+		enables_diktatur_idea_group = no
+		enables_theokratie_idea_group = no
+		enables_horde_idea_group = no
 	}
 	duration = 4
 }
@@ -652,7 +696,6 @@ free_city = {
 	lock_level_when_selected = yes
 	nation_designer_cost = 40
 	nation_designer_trigger = {
-		has_dlc = "Common Sense"
 		capital_scope = { is_part_of_hre = yes }
 		NOT = { num_custom_nation_provinces = 2 }
 	}
@@ -668,8 +711,11 @@ free_city = {
 
 	custom_attributes = {
 		locked_government_type = yes
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_monarchie_idea_group = no
+		enables_republik_idea_group = yes
+		enables_diktatur_idea_group = no
+		enables_theokratie_idea_group = no
+		enables_horde_idea_group = no
 	}
 	duration = 4
 }
@@ -698,8 +744,11 @@ trading_city = {
 
 	custom_attributes = {
 		locked_government_type = yes
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_monarchie_idea_group = no
+		enables_republik_idea_group = yes
+		enables_diktatur_idea_group = no
+		enables_theokratie_idea_group = no
+		enables_horde_idea_group = no
 	}
 
 	conditional = {
@@ -748,8 +797,11 @@ ambrosian_republic = {
 		max_absolutism = -30
 	}
 	custom_attributes = {
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_monarchie_idea_group = no
+		enables_republik_idea_group = yes
+		enables_diktatur_idea_group = no
+		enables_theokratie_idea_group = no
+		enables_horde_idea_group = no
 	}
 	duration = 4
 }
@@ -789,8 +841,11 @@ veche_republic = {
 	fixed_rank = 1
 
 	custom_attributes = {
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_monarchie_idea_group = no
+		enables_republik_idea_group = yes
+		enables_diktatur_idea_group = no
+		enables_theokratie_idea_group = no
+		enables_horde_idea_group = no
 	}
 	conditional = {
 		allow = {
@@ -900,8 +955,11 @@ american_republic = {
 	}
 
 	custom_attributes = {
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_monarchie_idea_group = no
+		enables_republik_idea_group = yes
+		enables_diktatur_idea_group = no
+		enables_theokratie_idea_group = no
+		enables_horde_idea_group = no
 		blocked_call_diet = yes
 	}
 	conditional = {
@@ -942,8 +1000,11 @@ federal_republic = {
 	}
 
 	custom_attributes = {
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_monarchie_idea_group = no
+		enables_republik_idea_group = yes
+		enables_diktatur_idea_group = no
+		enables_theokratie_idea_group = no
+		enables_horde_idea_group = no
 		blocked_call_diet = yes
 	}
 	conditional = {
@@ -974,8 +1035,11 @@ colonial_government = {
 
 	custom_attributes = {
 		locked_government_type = yes
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_monarchie_idea_group = no
+		enables_republik_idea_group = yes
+		enables_diktatur_idea_group = no
+		enables_theokratie_idea_group = no
+		enables_horde_idea_group = no
 	}
 	duration = 4
 }
@@ -1019,8 +1083,11 @@ dutch_republic = {
 	}
 
 	custom_attributes = {
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_monarchie_idea_group = no
+		enables_republik_idea_group = yes
+		enables_diktatur_idea_group = no
+		enables_theokratie_idea_group = no
+		enables_horde_idea_group = no
 	}
 	conditional = {
 		allow = {
@@ -1071,8 +1138,11 @@ cossacks_reform = {
 	}
 
 	custom_attributes = {
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_monarchie_idea_group = no
+		enables_republik_idea_group = yes
+		enables_diktatur_idea_group = no
+		enables_theokratie_idea_group = no
+		enables_horde_idea_group = no
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 60
@@ -1096,22 +1166,13 @@ republican_authoritarianism_reform = {
 		NOT = {
 			has_reform = pirate_republic_reform
 		}
-	}
-	effect = {
-		change_variable = {
-			which = Royal_Influence
-			value = 1
-		}
-	}
-	removed_effect = {
-		change_variable = {
-			which = Royal_Influence
-			value = -1
+		OR = {
+			is_revolutionary = no
+			NOT = { has_dlc = "Emperor" }
 		}
 	}
 	modifiers = {
 		global_unrest = -1
-		harsh_treatment_cost = -0.10
 	}
 	ai = {
 		factor = 1
@@ -1129,17 +1190,6 @@ nepotism_reform = {
 		OR = {
 			is_revolutionary = no
 			NOT = { has_dlc = "Emperor" }
-	}
-	effect = {
-		change_variable = {
-			which = Noble_Influence
-			value = 1
-		}
-	}
-	removed_effect = {
-		change_variable = {
-			which = Noble_Influence
-			value = -1
 		}
 	}
 	modifiers = {
@@ -1160,23 +1210,10 @@ republicanism_reform = {
 	potential = {
 		NOT = {
 			has_reform = pirate_republic_reform
-			culture_group = latin
 		}
 		OR = {
 			is_revolutionary = no
 			NOT = { has_dlc = "Emperor" }
-		}
-	}
-	effect = {
-		change_variable = {
-			which = Burgher_Influence
-			value = 1
-		}
-	}
-	removed_effect = {
-		change_variable = {
-			which = Burgher_Influence
-			value = -1
 		}
 	}
 	modifiers = {
@@ -1303,18 +1340,6 @@ frequent_elections_reform = {
 			has_reform = lottery_reform
 		}
 	}
-	effect = {
-		change_variable = {
-			which = Burgher_Influence
-			value = 1
-		}
-	}
-	removed_effect = {
-		change_variable = {
-			which = Burgher_Influence
-			value = -1
-		}
-	}
 	modifiers = {
 		max_absolutism = -10
 		election_cycle = -1
@@ -1331,18 +1356,6 @@ consolidation_of_power_reform = {
 		OR = {
 			is_revolutionary = no
 			NOT = { has_dlc = "Emperor" }
-		}
-	}
-	effect = {
-		change_variable = {
-			which = Royal_Influence
-			value = 1
-		}
-	}
-	removed_effect = {
-		change_variable = {
-			which = Royal_Influence
-			value = -1
 		}
 	}
 	modifiers = {
@@ -1373,18 +1386,6 @@ lottery_reform = {
 			}
 		}
 	}
-	effect = {
-		change_variable = {
-			which = Noble_Influence
-			value = 1
-		}
-	}
-	removed_effect = {
-		change_variable = {
-			which = Noble_Influence
-			value = -1
-		}
-	}
 	modifiers = {
 		yearly_corruption = -0.1
 	}
@@ -1398,30 +1399,105 @@ lottery_reform = {
 	}
 }
 
+consolidate_power_in_doge_reform = {
+	icon = "consolidate_power_in_doge_reform"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			has_reform = venice_merchants_reform
+			has_reform = merchants_reform
+		}
+	}
+	trigger = {
+		OR = {
+			has_reform = venice_merchants_reform
+			has_reform = merchants_reform
+		}
+	}
+	modifiers = {
+		governing_capacity = 250
+	}
+	has_term_election = no
+	ai = {
+		factor = 10
+		modifier = {
+			factor = 0
+			NOT = {
+				num_of_cities = 25
+			}
+		}
+	}
+}
+
+consolidate_power_in_cities_reform = {
+	icon = "consolidate_power_in_cities_reform"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			has_reform = venice_merchants_reform
+			has_reform = merchants_reform
+		}
+	}
+	trigger = {
+		OR = {
+			has_reform = venice_merchants_reform
+			has_reform = merchants_reform
+		}
+	}
+	modifiers = {
+		diplomatic_upkeep = 1
+		global_foreign_trade_power = 0.1
+	}
+	has_term_election = yes
+	duration = 4
+	ai = {
+		factor = 10
+		modifier = {
+			factor = 0
+			num_of_cities = 25
+		}
+	}
+}
+
+legislative_assembly_reform = {
+	icon = "legislative_assembly_reform"
+	allow_normal_conversion = yes
+	potential = {
+		is_revolutionary = yes
+		has_dlc = "Emperor"
+	}
+	modifiers = {
+		yearly_revolutionary_zeal = 1.5
+	}
+	ai = {
+		factor = 10
+	}
+}
+
+national_constituent_reform = {
+	icon = "national_constituent_reform"
+	allow_normal_conversion = yes
+	potential = {
+		is_revolutionary = yes
+		has_dlc = "Emperor"
+	}
+	modifiers = {
+		improve_relation_modifier = 0.15
+		diplomatic_upkeep = 1
+	}
+	ai = {
+		factor = 10
+	}
+}
+
 #Federalism vs Unitarianism vs Confederacy
 
 provincial_governments_reform = {
 	icon = "landscape"
 	allow_normal_conversion = yes
-	effect = {
-		change_variable = {
-			which = Noble_Influence
-			value = 1
-		}
-	}
-	removed_effect = {
-		change_variable = {
-			which = Noble_Influence
-			value = -1
-		}
-	}
 	modifiers = {
 		state_maintenance_modifier = -0.25
-		development_cost = -0.10
 	}
-	# custom_attributes = {
-		# enables_town_rights = yes
-	# }
 	ai = {
 		factor = 1
 	}
@@ -1430,20 +1506,8 @@ provincial_governments_reform = {
 administrative_divisions_reform = {
 	icon = "map"
 	allow_normal_conversion = yes
-	effect = {
-		change_variable = {
-			which = Royal_Influence
-			value = 1
-		}
-	}
-	removed_effect = {
-		change_variable = {
-			which = Royal_Influence
-			value = -1
-		}
-	}
 	modifiers = {
-		max_states = 5
+		governing_capacity = 250
 	}
 	ai = {
 		factor = 1
@@ -1451,30 +1515,51 @@ administrative_divisions_reform = {
 			factor = 0
 			has_reform = free_city
 		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				any_owned_province = {
+					is_territorial_core = root
+				}
+			}
+		}
+		modifier = {
+			factor = 2.5
+			num_of_owned_provinces_with = {
+				value = 10
+				is_territorial_core = root
+			}
+		}
+		modifier = {
+			factor = 0.25
+			OR = {
+				has_reform = merchants_reform
+				has_reform = venice_merchants_reform
+			}
+		}
 	}
 }
 
 union_of_states_reform = {
 	icon = "merchant_ship"
 	allow_normal_conversion = yes
-	effect = {
-		change_variable = {
-			which = Burgher_Influence
-			value = 1
-		}
-	}
-	removed_effect = {
-		change_variable = {
-			which = Burgher_Influence
-			value = -1
-		}
-	}
 	modifiers = {
 		global_trade_power = 0.1
-		merchants = 1
 	}
 	ai = {
 		factor = 1
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.35
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				has_reform = free_city
+				has_reform = merchants_reform
+				has_reform = venice_merchants_reform
+			}
+		}
 	}
 }
 
@@ -1485,23 +1570,19 @@ union_of_states_reform = {
 presidential_reform = {
 	icon = "man_on_podium"
 	allow_normal_conversion = yes
-	effect = {
-		change_variable = {
-			which = Royal_Influence
-			value = 1
-		}
-	}
-	removed_effect = {
-		change_variable = {
-			which = Royal_Influence
-			value = -1
-		}
-	}
 	modifiers = {
 		embracement_cost = -0.1
 	}
 	ai = {
 		factor = 1
+		modifier = {
+			factor = 0
+			has_reform = free_city
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { num_of_cities = 2 }
+		}
 	}
 }
 
@@ -1731,7 +1812,6 @@ political_principle_reform = {
 	icon = "paper_with_seal_3"
 	allow_normal_conversion = yes
 	modifiers = {
-		free_adm_policy = 1
 		possible_adm_policy = 1
 	}
 }
@@ -1740,7 +1820,6 @@ moral_principle_reform = {
 	icon = "parliament_hall"
 	allow_normal_conversion = yes
 	modifiers = {
-		free_dip_policy = 1
 		possible_dip_policy = 1
 	}
 }
@@ -1902,7 +1981,7 @@ military_electorate_reform = {
 	}
 	modifiers = {
 		leader_land_fire = 1
-		army_tradition = 0.5
+		army_tradition = 0.25
 		rr_royalists_influence = 0.1
 	}
 	custom_attributes = {
@@ -2077,9 +2156,17 @@ become_rev_empire_reform = {
 	
 	trigger = {
 		has_reform = revolutionary_republic_reform
-		faction_influence = {
-			faction = rr_royalists
-			influence = 75
+		if = {
+			limit = {
+				has_dlc = "Rights of Man"
+			}
+			faction_influence = {
+				faction = rr_royalists
+				influence = 75
+			}
+		}
+		else = {
+			NOT = { republican_tradition = 40 }
 		}
 	}
 
@@ -2101,6 +2188,6 @@ become_rev_empire_reform = {
 		}
 	}
 	ai = {
-		factor = 1
+		factor = 0
 	}
 }
