@@ -14,6 +14,7 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			NOT = { has_country_flag = tur_disables_move_capital_to_constantinople_flag }
 		}
 		allow = {
 			is_at_war = no
@@ -27,6 +28,7 @@ country_decisions = {
 		}
 		effect = {
 			set_country_flag = relocated_capital_constantinople
+			set_global_flag = greek_need_restore_constantinople
 			add_stability = 1
 			add_core = 151
 			151 = {
@@ -132,19 +134,30 @@ country_decisions = {
 		potential = {
 			has_disaster = janissary_decadence
 			normal_or_historical_nations = yes
-			OR = {
-				ai = no
-				is_playing_custom_nation = no
-			}
 		}
 		allow = {
 			has_disaster = janissary_decadence
-			
+			if = {
+				limit = { has_dlc = "Cradle of Civilization" }
+				OR = {
+					NOT = { janissary_percentage = 0.05 }
+					NOT = { num_of_janissaries = 3 }
+				}
+			}
 		}
 		effect = {
-			set_country_flag = NO_JANISSARIES
-			remove_country_modifier = tur_janissary
+			if = {
+				limit = {
+					has_country_modifier = tur_janissary
+				}
+				remove_country_modifier = tur_janissary
+			}
+			else = {
+				set_country_flag = yoklama
+				custom_tooltip = yoklama_effect_tooltip
+			}
 			end_disaster = janissary_decadence
+			country_event = { id = janissary_decadence.100 }
 		}
 		ai_will_do = {
 			factor = 1

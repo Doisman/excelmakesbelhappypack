@@ -2,6 +2,10 @@
 ### Detailed changelog. For exact changes go to GitHub https://github.com/TheDivexz/excelmakesbelhappypack ###
 ##############################################################################################################
 
+August 29th 2020 v3.0
+
+Redoing the modpack
+
 May 25th 2020 v2.7.3
 General development curve changed via modifiers:
 development_scaled = local_development_cost = 0.025 (up from 0.02)
